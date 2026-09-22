@@ -116,7 +116,6 @@ def get_days_style(days):
 
 def get_team_email(team_name):
     team_emails = {
-        "Kia": "kia@communitylawgroup.com",
         "Alonso": "Legalassistant2@communitylawgroup.com",
         "Francy": "legalsupport11@communitylawgroup.com",
         "Kevin": "legalsupport12@communitylawgroup.com",
@@ -126,7 +125,6 @@ def get_team_email(team_name):
 
 def get_cc_for_team(team_name):
     cc_by_team = {
-        "Kia": ["litigationdepartment@communitylawgroup.com"],
         "Alonso": ["Legalassistant7@communitylawgroup.com","amanda@communitylawgroup.com","ellen@communitylawgroup.com","Delmin@communitylawgroup.com", "legalsupport7@communitylawgroup.com"],
         "Francy": ["legalsupport5@communitylawgroup.com","amanda@communitylawgroup.com","Delmin@communitylawgroup.com"],
         "Kevin": ["ellen@communitylawgroup.com","Delmin@communitylawgroup.com"],
