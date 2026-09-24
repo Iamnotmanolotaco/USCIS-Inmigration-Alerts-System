@@ -120,6 +120,7 @@ def get_team_email(team_name):
         "Francy": "legalsupport11@communitylawgroup.com",
         "Kevin": "legalsupport12@communitylawgroup.com",
         "Juliana": "legalsupport4@communitylawgroup.com",
+        "Kia": "kia@communitylawgroup.com",
     }
     return team_emails.get(team_name.strip(), None)
 
@@ -129,6 +130,7 @@ def get_cc_for_team(team_name):
         "Francy": ["legalsupport5@communitylawgroup.com","amanda@communitylawgroup.com","Delmin@communitylawgroup.com"],
         "Kevin": ["ellen@communitylawgroup.com","Delmin@communitylawgroup.com"],
         "Juliana": ["supernumerary2@communitylawgroup.com", "oscar@communitylawgroup.com", "Delmin@communitylawgroup.com"],
+        "Kia": ["litigationdepartment@communitylawgroup.com"],
     }
     default_cc = ["default_supervisor@communitylawgroup.com"]
     return cc_by_team.get(team_name.strip(), default_cc)
