@@ -116,21 +116,21 @@ def get_days_style(days):
 
 def get_team_email(team_name):
     team_emails = {
+        "Kia": "kia@communitylawgroup.com",
         "Alonso": "Legalassistant2@communitylawgroup.com",
         "Francy": "legalsupport11@communitylawgroup.com",
         "Kevin": "legalsupport12@communitylawgroup.com",
         "Juliana": "legalsupport4@communitylawgroup.com",
-        "Kia": "kia@communitylawgroup.com",
     }
     return team_emails.get(team_name.strip(), None)
 
 def get_cc_for_team(team_name):
     cc_by_team = {
+        "Kia": ["litigationdepartment@communitylawgroup.com"],
         "Alonso": ["Legalassistant7@communitylawgroup.com","amanda@communitylawgroup.com","ellen@communitylawgroup.com","Delmin@communitylawgroup.com", "legalsupport7@communitylawgroup.com"],
         "Francy": ["legalsupport5@communitylawgroup.com","amanda@communitylawgroup.com","Delmin@communitylawgroup.com"],
         "Kevin": ["ellen@communitylawgroup.com","Delmin@communitylawgroup.com"],
         "Juliana": ["supernumerary2@communitylawgroup.com", "oscar@communitylawgroup.com", "Delmin@communitylawgroup.com"],
-        "Kia": ["litigationdepartment@communitylawgroup.com"],
     }
     default_cc = ["default_supervisor@communitylawgroup.com"]
     return cc_by_team.get(team_name.strip(), default_cc)
