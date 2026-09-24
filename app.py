@@ -25,7 +25,7 @@ SMTP_PORT = 587
 URL_LOGO_GITHUB = "https://raw.githubusercontent.com/Iamnotmanolotaco/Inmigration-USCIS-Alerts-Automation/main/image.png"
 URL_BANNER_GITHUB = "https://raw.githubusercontent.com/Iamnotmanolotaco/Inmigration-USCIS-Alerts-Automation/main/banner.png"
 
-DAYS_BEFORE = 10
+DAYS_BEFORE = 14
 DAYS_AFTER = 150
 LOGO_WIDTH = 180
 
