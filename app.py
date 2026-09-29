@@ -22,7 +22,7 @@ from PIL import Image
 SMTP_SERVER = "smtp.office365.com"
 SMTP_PORT = 587
 
-URL_LOGO_GITHUB = "https://raw.githubusercontent.com/Iamnotmanolotaco/Inmigration-USCIS-Alerts-Automation/main/image.png"
+URL_LOGO_GITHUB = "https://raw.githubusercontent.com/Iamnotmanolotaco/Inmigration-USCIS-Alerts-Automation/main/CLG NEW LOGO.png"
 URL_BANNER_GITHUB = "https://raw.githubusercontent.com/Iamnotmanolotaco/Inmigration-USCIS-Alerts-Automation/main/banner.png"
 
 DAYS_BEFORE = 14
